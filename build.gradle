@@ -46,6 +46,10 @@ jacocoTestCoverageVerification {
 
 // Code formatting configuration
 
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
 spotless {
     java {
         googleJavaFormat()
