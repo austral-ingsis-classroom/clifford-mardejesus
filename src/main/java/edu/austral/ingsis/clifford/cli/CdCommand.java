@@ -1,7 +1,6 @@
 package edu.austral.ingsis.clifford.cli;
 
 import edu.austral.ingsis.clifford.FileSystem;
-
 import java.util.List;
 
 public class CdCommand implements Command {
